@@ -1,19 +1,19 @@
-<div align="center"><a href="https://github.com/devbytemehedi/swiftstart.git"><img src="./src/assets/logo/logo-no-bg.png"></a>
- <h3><strong>A versatile web project starter template with HTML5, CSS3, Tailwind CSS, daisyUI, Git, and Node.js for quick, responsive web development.</strong></h3>
-<a href="https://devbytemehedi.github.io/swiftstart"> <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github Pages"></a></div>
+<div align="center"><a href="https://github.com/devbytemehedi/stylewrite.git"><img src="./src/assets/logo/logo.png"></a>
+ <h3><strong> StyleWrite is a simple, minimal, and fast online text editor designed with Tailwind CSS and basic JavaScript for interaction.</strong></h3>
+<a href="https://dub.sh/stylewrite"> <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github Pages"></a></div>
 
 ## How to run this ?
 
 1. **Clone this repo**
 
 ```bash
-git clone https://github.com/devbytemehedi/swiftstart.git
+git clone https://github.com/devbytemehedi/stylewrite.git
 ```
 
-2. **Open swiftstart in vscode**
+2. **Open stylewrite in vscode**
 
 ```pwsh
-code swiftstart
+code stylewrite
 ```
 
 3. **Install node modules**
@@ -43,7 +43,9 @@ npm run build
 
 ## Technology Used
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![DaisyUI](https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ## Connect with me
 
@@ -53,9 +55,11 @@ npm run build
 ## Folder Structure
 
 ```css
-swiftstart
+stylewrite
  ┣ .vscode
  ┃ ┗ settings.json
+ ┣ dist
+ ┃ ┗ .gitkeep
  ┣ src
  ┃ ┣ assets
  ┃ ┃ ┣ favicons
@@ -66,24 +70,24 @@ swiftstart
  ┃ ┃ ┃ ┣ facebook.svg
  ┃ ┃ ┃ ┣ github.svg
  ┃ ┃ ┃ ┣ instagram.svg
- ┃ ┃ ┃ ┗ linkedin.svg
+ ┃ ┃ ┃ ┣ linkedin.svg
+ ┃ ┃ ┃ ┗ text-size.svg
  ┃ ┃ ┗ logo
- ┃ ┃ ┃ ┣ logo-black.png
- ┃ ┃ ┃ ┣ logo-color.png
- ┃ ┃ ┃ ┣ logo-no-bg.png
- ┃ ┃ ┃ ┗ logo-white.png
- ┃ ┣ 404.html
- ┃ ┣ index.html
+ ┃ ┃ ┃ ┗ logo.png
+ ┃ ┣ js
+ ┃ ┃ ┗ main.js
+ ┃ ┣ pages
+ ┃ ┃ ┗ .gitkeep
  ┃ ┣ input.css
- ┃ ┗ main.js
+ ┃ ┗ main.html
  ┣ .gitattributes
  ┣ .gitignore
+ ┣ index.html
  ┣ LICENSE
  ┣ package.json
  ┣ README.md
  ┣ robots.txt
  ┗ tailwind.config.js
-
 
 ```
 
@@ -95,10 +99,8 @@ The code is available under the [MIT](./LICENSE) license.
 
 This project uses the following free resources:
 
-- [Logo.com](https://logo.com/) - A free online logo maker and branding tool.
-- [Favicon.io](https://favicon.io/) - A website that provides tools for creating favicons, which are small icons that appear in the address bar or tab of a web browser.
-- [Icons8](https://icons8.com/) - A website that provides a large collection of free icons, photos, vectors, and music.
-- [HTML5 Boilerplate](https://html5boilerplate.com/) - A professional front-end template for building fast, robust, and adaptable web apps or sites.
-- [Tailwind Playlist by Learn with Sumit](https://github.com/learnwithsumit/tailwind-playlist/tree/lesson-2) - A repository containing lessons on using Tailwind CSS.
+- [Logo.com](https://logo.com/)
+
+- [Font Awesome](https://fontawesome.com/)
 
 Thank you to the creators of these resources for making them available for free!
